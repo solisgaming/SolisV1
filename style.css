@@ -4,6 +4,13 @@
 }
 
 
+/* Body */
+
+body {
+    background-color: black;
+}
+
+
 /* Viewport */
 
 
@@ -55,4 +62,26 @@
 video {
     max-height: 605px;
     width: 100%;
+}
+
+
+/* Description */
+
+.description {
+    margin: 10px 5px 0px 5px;
+    background-color: black;
+}
+
+.card {
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: black;
+}
+
+.card-text {
+    color: white;
+}
+
+.card-title {
+    color: white;
 }
