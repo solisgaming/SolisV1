@@ -3,6 +3,19 @@
     src: url("./static/fonts/navbar-font.ttf");
 }
 
+
+/* Viewport */
+
+
+/* .viewportDiv {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+} */
+
+
+/* Navbar */
+
 .navbar-text {
     display: flex;
     justify-content: center;
@@ -17,4 +30,29 @@
 
 .navbar-brand {
     font-size: 1.75rem;
+}
+
+
+/* Main content */
+
+.main-content {
+    background-color: red;
+    /* flex-grow: 1; */
+    margin-top: 7rem;
+}
+
+
+/* Video content */
+
+#main-page-video {
+    background-color: black;
+}
+
+#video {
+    height: inherit;
+}
+
+video {
+    max-height: 605px;
+    width: 100%;
 }
