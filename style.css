@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'navbar-text';
+    src: url("./static/fonts/navbar-font.ttf");
+}
+
+.navbar-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: navbar-text;
+    font-size: 50%;
+}
+
+.navbar {
+    background-color: black;
+}
+
+.navbar-brand {
+    font-size: 1.75rem;
+}
